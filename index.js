@@ -4,10 +4,10 @@ document.getElementById("content").innerHTML += `
     <h2>VEJA COMO É FACIL NOSSO PROCESSO DE COMPRA SEGURA:</h2>
     <div class="processo_compra_img">
         <div>
-            <img src="/img/Design-sem-nome.png" alt="">
-            <img src="/img/O-CONTUDO-CHEGA-IMEDIATAMENTE-NO-SEU-E-MAIL-E-NO-WHATSAPP.png" alt="">
-            <img src="/img/3-1-1.png" alt="">
-            <img src="/img/foto-perfil-linkedin-disponivel-para-trabalhar-moderno-verde-3.png" alt="">
+            <img src="/img/Design-sem-nome.webp" alt="">
+            <img src="/img/O-CONTUDO-CHEGA-IMEDIATAMENTE-NO-SEU-E-MAIL-E-NO-WHATSAPP.webp" alt="">
+            <img src="/img/3-1-1.webp" alt="">
+            <img src="/img/foto-perfil-linkedin-disponivel-para-trabalhar-moderno-verde-3.webp" alt="">
             <hr>
         </div>
     </div>
@@ -15,9 +15,9 @@ document.getElementById("content").innerHTML += `
 <div class="main">
     <h2>VEJA UM EXEMPLO DO MATERIA QUE VOCÊ TERÁ ACESSO:</h2>
     <div class="materia">
-        <div><img src="/img/WhatsApp-Image-2023-10-02-at-10.19.00-3-724x1024.jpeg" alt=""></div>
-        <div><img src="/img/WhatsApp-Image-2023-10-02-at-10.19.00-4-724x1024.jpeg" alt=""></div>
-        <div><img src="/img/WhatsApp-Image-2023-10-02-at-10.25.47-724x1024.jpeg" alt=""></div>
+        <div><img src="/img/WhatsApp-Image-2023-10-02-at-10.19.00-3-724x1024.webp" alt=""></div>
+        <div><img src="/img/WhatsApp-Image-2023-10-02-at-10.19.00-4-724x1024.webp" alt=""></div>
+        <div><img src="/img/WhatsApp-Image-2023-10-02-at-10.25.47-724x1024.webp" alt=""></div>
     </div>
 </div>
 <div class="main main2">
@@ -48,22 +48,22 @@ document.getElementById("content").innerHTML += `
     <h2>Para Quem é o E-book com 246 Esboços nos 4 Evangelhos?</h2>
     <div class="esboco">
         <div class="esboco_item">
-            <img src="/img/PASTORES-1-3.png" alt="">
+            <img src="/img/PASTORES-1-3.webp" alt="">
             <h5>PASTORES</h5>
             <p>➡️Que Querem Aperfeiçoar ainda mais o ministério!</p>
         </div>
         <div class="esboco_item">
-            <img src="/img/PREGADORES-1-3.png" alt="">
+            <img src="/img/PREGADORES-1-3.webp" alt="">
             <h5>PREGADORES</h5>
             <p>➡️Que Querem Preparar os melhores sermões!</p>
         </div>
         <div class="esboco_item">
-            <img src="/img/PROFESSORES-1-3.png" alt="">
+            <img src="/img/PROFESSORES-1-3.webp" alt="">
             <h5>PROFESSORES</h5>
             <p>➡️Que Querem Mais Convicção na hora de lecionar!</p>
         </div>
         <div class="esboco_item">
-            <img src="/img/LIDERES-1-3.png" alt="">
+            <img src="/img/LIDERES-1-3.webp" alt="">
             <h5>MEMBROS</h5>
             <p>➡️Que querem ter embasamento bíblico para evangelizar.</p>
         </div>
@@ -73,19 +73,19 @@ document.getElementById("content").innerHTML += `
     <h2>Veja o que nossos clientes estão falando do nosso produto:</h2>
     <div class="clientes">
         <div class="clientes_item">
-            <img src="/img/356234051_118431991286259_9052006801372952277_n.jpg" alt="">
+            <img src="/img/tio..webp" alt="">
             <h5>Pr: José Ribeiro</h5>
             <p>Material maravilho de grande inspiração para nos homens e evangelista dos evangelho do nosso
                 Senhor Jesus.</p>
         </div>
         <div class="clientes_item">
-            <img src="/img/jose-vitor-sampaio.jpg" alt="">
+            <img src="/img/tio-tia.webp" alt="">
             <h5>Regina de Sousa</h5>
             <p>Simplismente uma fonte inesgotável de conhecimento, para nos ajudar a aprender cada vez mais
                 da palavra de Deus, parabéns pelos esboços.</p>
         </div>
         <div class="clientes_item">
-            <img src="/img/362290626_144826145305420_2334760287956414244_n.jpg" alt="">
+            <img src="/img/pastor.webp" alt="">
             <h5>Wilker Silva</h5>
             <p>Tenho todos os e-books do site, estão de parabéns pelos esboços , estou estudando e usando
                 aqui na igreja.</p>
@@ -99,13 +99,13 @@ document.getElementById("content").innerHTML += `
         <h5><span>Bônus-01</span></h5>
         <h5 class="destaque_preco_red">Valor real: R$47</h5>
         <h5 class="destaque_preco_green">Nessa Oferta: R$00</h5>
-        <img src="/img/bonus1.png" alt="">
+        <img src="/img/bonus1.webp" alt="">
     </div>
     <div class="bonus">
         <h5><span>Bônus-02</span></h5>
         <h5 class="destaque_preco_red">Valor real: R$37</h5>
         <h5 class="destaque_preco_green">Nessa Oferta: R$00</h5>
-        <img src="/img/bpnus2.png" alt="">
+        <img src="/img/bpnus2.webp" alt="">
     </div>
 </div>
 <div id="plano" class="promo">
@@ -135,7 +135,7 @@ document.getElementById("content").innerHTML += `
             <h5 class="destaque_plano_red"><s>Acesso vitalicío</s></h5>
             <h5 class="destaque_plano_red"><s></s></h5>
             <button><a href="https://go.perfectpay.com.br/PPU38CNA2PE">QUERO O PLANO BÁSICO!</a></button>
-            <div><img src="/img/AINDA-DA-TEMPO-DE-LEVAR-A-MELHOR-OPCAO-1.png" alt=""></div>
+            <div><img src="/img/AINDA-DA-TEMPO-DE-LEVAR-A-MELHOR-OPCAO-1.webp" alt=""></div>
         </div>
     </div>
     <div class="plano_item destaque_amarelo">
@@ -146,7 +146,7 @@ document.getElementById("content").innerHTML += `
             <p>Ou <b>5X de R$:5,89</b></p>
         </div>
         <div>
-            <div> <img src="/img/PROMOCAO-POR-TEMPO-LIMITADO-1.png" alt=""></div>
+            <div> <img src="/img/PROMOCAO-POR-TEMPO-LIMITADO-1.webp" alt=""></div>
             <h5>E-book 246 Coletânea 246 Esboços Nos 4 Evangelhos</h5>
             <h5>E-book: 365 Esboços de sermões de Gênesis a Apocalipse</h5>
             <h5>E-book: 50 Esboços de Sermões no Livro de Atos</h5>
@@ -173,7 +173,7 @@ document.getElementById("content").innerHTML += `
             <h2>Eu vou te dar 30 dias de garantia incondicional!</h2>
         </div>
         <div>
-            <img src="/img/garantia-de-30-dias-ou-seu-dinheiro-de-volta.png" alt="">
+            <img src="/img/garantia-de-30-dias-ou-seu-dinheiro-de-volta.webp" alt="">
         </div>
         <div>
             <p>Com isso você terá tempo, até para fazer TODOS, e pedir o dinheiro de volta caso acredite que
