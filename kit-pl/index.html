@@ -1,0 +1,1498 @@
+<!DOCTYPE html><html lang="pt-BR"><head>
+	<meta charset="UTF-8">
+		<title>rdp1-ce – Rei das Planilhas</title><link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%20Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COpen%20Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%20Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COpen%20Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%20Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COpen%20Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=swap" /></noscript><link rel="stylesheet" href="css/7aa9cd53000e4e9262756fc92418ec6d.css" media="all" data-minify="1">
+<meta name="robots" content="max-image-preview:large">
+<link rel="dns-prefetch" href="//cdn.converteai.net">
+<link rel="dns-prefetch" href="//connect.facebook.net">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//fonts.gstatic.com">
+<link rel="dns-prefetch" href="//images.converteai.net">
+<link rel="dns-prefetch" href="//scripts.converteai.net">
+<link rel="dns-prefetch" href="//secure.gravatar.com">
+<link rel="dns-prefetch" href="//www.facebook.com">
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link href="https://fonts.gstatic.com" crossorigin="" rel="preconnect">
+<link rel="alternate" type="application/rss+xml" title="Feed para Rei das Planilhas »" href="https://reidasplanilhas.site/feed/">
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Rei das Planilhas »" href="https://reidasplanilhas.site/comments/feed/">
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+
+<style id="classic-theme-styles-inline-css">
+/**
+ * These rules are needed for backwards compatibility.
+ * They should match the button element rules in the base theme.json file.
+ */
+.wp-block-button__link {
+	color: #ffffff;
+	background-color: #32373c;
+	border-radius: 9999px; /* 100% causes an oval, but any explicit but really high value retains the pill shape. */
+
+	/* This needs a low specificity so it won't override the rules from the button element if defined in theme.json. */
+	box-shadow: none;
+	text-decoration: none;
+
+	/* The extra 2px are added to size solids the same as the outline versions.*/
+	padding: calc(0.667em + 2px) calc(1.333em + 2px);
+
+	font-size: 1.125em;
+}
+
+.wp-block-file__button {
+	background: #32373c;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+</style>
+<style id="global-styles-inline-css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+
+
+
+<link rel="stylesheet" id="elementor-post-5-css" href="css/post-5.css" media="all">
+
+
+
+<link rel="stylesheet" id="elementor-global-css" href="css/global.css" media="all">
+<link rel="stylesheet" id="elementor-post-337-css" href="css/post-337.css" media="all">
+
+
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><script async="" src="js/fbevents.js"></script><script src="js/jquery.js" id="jquery-core-js"></script>
+<script src="js/jquery-migrate.js" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://reidasplanilhas.site/wp-json/"><link rel="alternate" type="application/json" href="https://reidasplanilhas.site/wp-json/wp/v2/pages/337"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://reidasplanilhas.site/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.4.3">
+<link rel="canonical" href="https://reidasplanilhas.site/rdp1-ce/">
+<link rel="shortlink" href="https://reidasplanilhas.site/?p=337">
+<link rel="alternate" type="application/json+oembed" href="https://reidasplanilhas.site/wp-json/oembed/1.0/embed?url=https%3A%2F%2Freidasplanilhas.site%2Frdp1-ce%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://reidasplanilhas.site/wp-json/oembed/1.0/embed?url=https%3A%2F%2Freidasplanilhas.site%2Frdp1-ce%2F&amp;format=xml">
+<meta name="generator" content="Elementor 3.11.2; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+<style>
+				:root {
+				--qlwapp-scheme-font-family:inherit;--qlwapp-scheme-font-size:18px;--qlwapp-scheme-icon-size:60px;--qlwapp-scheme-icon-font-size:24px;--qlwapp-button-animation-name:none;				}
+			</style>
+			<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"></head>
+<body class="page-template page-template-elementor_canvas page page-id-337 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-337">
+
+			<div data-elementor-type="wp-page" data-elementor-id="337" class="elementor elementor-337">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-55a14f93 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="55a14f93" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7d77941e" data-id="7d77941e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-de23ccd elementor-widget elementor-widget-heading" data-id="de23ccd" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">12 MIL PLANILHAS EM EXCEL</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-61ff47e6 elementor-widget elementor-widget-heading" data-id="61ff47e6" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Acesse agora e economize tempo e dinheiro!
+<br></h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4ae73513 elementor-widget elementor-widget-text-editor" data-id="4ae73513" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><span style="color: #333333;">Veja como ter acesso a planilhas profissionais, sem gastar seu tempo e que servem para tudo o que você precisar</span></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-3a17cec elementor-widget elementor-widget-image" data-id="3a17cec" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img fetchpriority="high" decoding="async" width="800" height="520" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20520'%3E%3C/svg%3E" class="attachment-large size-large wp-image-340" alt="" data-lazy-srcset="https://reidasplanilhas.site/wp-content/uploads/2023/03/img-cabecalho-planilhas.fw-1.png 800w, https://reidasplanilhas.site/wp-content/uploads/2023/03/img-cabecalho-planilhas.fw-1-300x195.png 300w, https://reidasplanilhas.site/wp-content/uploads/2023/03/img-cabecalho-planilhas.fw-1-768x499.png 768w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://reidasplanilhas.site/wp-content/uploads/2023/03/img-cabecalho-planilhas.fw-1.png"><noscript><img fetchpriority="high" decoding="async" width="800" height="520" src="https://reidasplanilhas.site/wp-content/uploads/2023/03/img-cabecalho-planilhas.fw-1.png" class="attachment-large size-large wp-image-340" alt="" srcset="https://reidasplanilhas.site/wp-content/uploads/2023/03/img-cabecalho-planilhas.fw-1.png 800w, https://reidasplanilhas.site/wp-content/uploads/2023/03/img-cabecalho-planilhas.fw-1-300x195.png 300w, https://reidasplanilhas.site/wp-content/uploads/2023/03/img-cabecalho-planilhas.fw-1-768x499.png 768w" sizes="(max-width: 800px) 100vw, 800px" /></noscript>															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-6836ad56 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6836ad56" data-element_type="section">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-453dba80" data-id="453dba80" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-66269e34 elementor-widget elementor-widget-heading" data-id="66269e34" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default"><br>De: R$97</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-7f09a4e8 elementor-widget elementor-widget-heading" data-id="7f09a4e8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">Por apenas:</h5>		</div>
+				</div>
+				<div class="elementor-element elementor-element-51141947 elementor-widget elementor-widget-heading" data-id="51141947" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">R$ 10,00</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-2731f69 elementor-widget elementor-widget-heading" data-id="2731f69" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">MAS VOCÊ PRECISA AGIR RÁPIDO!
+<br></h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ee608b9 elementor-mobile-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="ee608b9" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Totalmente editáveis</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Acesso Vitalício</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Garantia incondicional de 7 dias</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Liberação Imediata</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-226688d7 elementor-align-center elementor-widget elementor-widget-button" data-id="226688d7" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#QUEROACESSAR" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-pulse" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">QUERO BAIXAR AGORA!</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-6f596b1 elementor-widget elementor-widget-heading" data-id="6f596b1" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">(Últimas horas com valor promocional)
+<br>
+<br>
+<br></h6>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-1dcba810 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1dcba810" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-6c140f04" data-id="6c140f04" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+				<div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-41206753" data-id="41206753" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-44bedac elementor-widget elementor-widget-heading" data-id="44bedac" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">O KIT MAIS COMPLETO DA INTERNET</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1ee51aad elementor-widget elementor-widget-text-editor" data-id="1ee51aad" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<div id="op3-element-LFlERIwZ" class="op3-element " data-op3-uuid="LFlERIwZ" data-op3-gid="" data-op3-element-type="headline" data-op3-element-spec="" data-op3-element-caption="Headline #LFlERIwZ" data-op-visibility-hidden="0" data-op-element-hidden="0" data-op3-style-id="" data-op3-has-children="0"><div class="op3-headline-wrapper" data-op-animation-trigger="none" data-op-animation-style="" data-op-animation-loop="0" data-op-timer-minutes="0" data-op-timer-seconds="0"><div data-op3-contenteditable=""><h4><strong>É um kit de planilhas profissionais que servem para tudo!</strong></h4></div></div></div><div id="op3-element-FdPyhAgE" class="op3-element " data-op3-uuid="FdPyhAgE" data-op3-gid="" data-op3-element-type="headline" data-op3-element-spec="" data-op3-element-caption="Headline #FdPyhAgE" data-op-visibility-hidden="0" data-op-element-hidden="0" data-op3-style-id="" data-op3-has-children="0"><div class="op3-headline-wrapper" data-op-animation-trigger="none" data-op-animation-style="" data-op-animation-loop="0" data-op-timer-minutes="0" data-op-timer-seconds="0"><div data-op3-contenteditable="">&nbsp;</div></div></div>						</div>
+				</div>
+				<div class="elementor-element elementor-element-210d50b1 elementor-widget elementor-widget-text-editor" data-id="210d50b1" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: center;"><span style="color: #333333;">Sabe aquela planilha automatizada que você vê por aí e fica doido para ter uma igual? Está tudo aqui!</span></p>						</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-21af9c1 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="21af9c1" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-fa32f96" data-id="fa32f96" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-0582945 elementor-widget elementor-widget-image" data-id="0582945" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="800" height="428" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20428'%3E%3C/svg%3E" class="attachment-large size-large wp-image-41" alt="" data-lazy-srcset="https://reidasplanilhas.site/wp-content/uploads/2023/02/Sem-Titulo-3.png.webp 900w, https://reidasplanilhas.site/wp-content/uploads/2023/02/Sem-Titulo-3.png-300x161.webp 300w, https://reidasplanilhas.site/wp-content/uploads/2023/02/Sem-Titulo-3.png-768x411.webp 768w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://reidasplanilhas.site/wp-content/uploads/2023/02/Sem-Titulo-3.png.webp"><noscript><img decoding="async" width="800" height="428" src="https://reidasplanilhas.site/wp-content/uploads/2023/02/Sem-Titulo-3.png.webp" class="attachment-large size-large wp-image-41" alt="" srcset="https://reidasplanilhas.site/wp-content/uploads/2023/02/Sem-Titulo-3.png.webp 900w, https://reidasplanilhas.site/wp-content/uploads/2023/02/Sem-Titulo-3.png-300x161.webp 300w, https://reidasplanilhas.site/wp-content/uploads/2023/02/Sem-Titulo-3.png-768x411.webp 768w" sizes="(max-width: 800px) 100vw, 800px" /></noscript>															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-a49c9ec" data-id="a49c9ec" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-62b17d5 elementor-widget elementor-widget-image" data-id="62b17d5" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="800" height="430" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20430'%3E%3C/svg%3E" class="attachment-large size-large wp-image-40" alt="" data-lazy-srcset="https://reidasplanilhas.site/wp-content/uploads/2023/02/Dashboarde-performance-de-vendas-1-1024x550.png 1024w, https://reidasplanilhas.site/wp-content/uploads/2023/02/Dashboarde-performance-de-vendas-1-300x161.png 300w, https://reidasplanilhas.site/wp-content/uploads/2023/02/Dashboarde-performance-de-vendas-1-768x412.png 768w, https://reidasplanilhas.site/wp-content/uploads/2023/02/Dashboarde-performance-de-vendas-1-1536x825.png 1536w, https://reidasplanilhas.site/wp-content/uploads/2023/02/Dashboarde-performance-de-vendas-1.png 1915w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://reidasplanilhas.site/wp-content/uploads/2023/02/Dashboarde-performance-de-vendas-1-1024x550.png"><noscript><img decoding="async" width="800" height="430" src="https://reidasplanilhas.site/wp-content/uploads/2023/02/Dashboarde-performance-de-vendas-1-1024x550.png" class="attachment-large size-large wp-image-40" alt="" srcset="https://reidasplanilhas.site/wp-content/uploads/2023/02/Dashboarde-performance-de-vendas-1-1024x550.png 1024w, https://reidasplanilhas.site/wp-content/uploads/2023/02/Dashboarde-performance-de-vendas-1-300x161.png 300w, https://reidasplanilhas.site/wp-content/uploads/2023/02/Dashboarde-performance-de-vendas-1-768x412.png 768w, https://reidasplanilhas.site/wp-content/uploads/2023/02/Dashboarde-performance-de-vendas-1-1536x825.png 1536w, https://reidasplanilhas.site/wp-content/uploads/2023/02/Dashboarde-performance-de-vendas-1.png 1915w" sizes="(max-width: 800px) 100vw, 800px" /></noscript>															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-0adb115 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0adb115" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-ad4fe69" data-id="ad4fe69" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-1eb903d elementor-widget elementor-widget-image" data-id="1eb903d" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="800" height="428" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20428'%3E%3C/svg%3E" class="attachment-large size-large wp-image-38" alt="" data-lazy-srcset="https://reidasplanilhas.site/wp-content/uploads/2023/02/Sem-Titulo-2.png.webp 900w, https://reidasplanilhas.site/wp-content/uploads/2023/02/Sem-Titulo-2.png-300x161.webp 300w, https://reidasplanilhas.site/wp-content/uploads/2023/02/Sem-Titulo-2.png-768x411.webp 768w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://reidasplanilhas.site/wp-content/uploads/2023/02/Sem-Titulo-2.png.webp"><noscript><img decoding="async" width="800" height="428" src="https://reidasplanilhas.site/wp-content/uploads/2023/02/Sem-Titulo-2.png.webp" class="attachment-large size-large wp-image-38" alt="" srcset="https://reidasplanilhas.site/wp-content/uploads/2023/02/Sem-Titulo-2.png.webp 900w, https://reidasplanilhas.site/wp-content/uploads/2023/02/Sem-Titulo-2.png-300x161.webp 300w, https://reidasplanilhas.site/wp-content/uploads/2023/02/Sem-Titulo-2.png-768x411.webp 768w" sizes="(max-width: 800px) 100vw, 800px" /></noscript>															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9c63df6" data-id="9c63df6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-a1b28ee elementor-widget elementor-widget-image" data-id="a1b28ee" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="800" height="565" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20565'%3E%3C/svg%3E" class="attachment-large size-large wp-image-341" alt="" data-lazy-srcset="https://reidasplanilhas.site/wp-content/uploads/2023/03/1.png 1009w, https://reidasplanilhas.site/wp-content/uploads/2023/03/1-300x212.png 300w, https://reidasplanilhas.site/wp-content/uploads/2023/03/1-768x543.png 768w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://reidasplanilhas.site/wp-content/uploads/2023/03/1.png"><noscript><img decoding="async" width="800" height="565" src="https://reidasplanilhas.site/wp-content/uploads/2023/03/1.png" class="attachment-large size-large wp-image-341" alt="" srcset="https://reidasplanilhas.site/wp-content/uploads/2023/03/1.png 1009w, https://reidasplanilhas.site/wp-content/uploads/2023/03/1-300x212.png 300w, https://reidasplanilhas.site/wp-content/uploads/2023/03/1-768x543.png 768w" sizes="(max-width: 800px) 100vw, 800px" /></noscript>															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<div class="elementor-element elementor-element-71f33d87 elementor-align-center elementor-widget elementor-widget-button" data-id="71f33d87" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#QUEROACESSAR" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-pulse" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">QUERO BAIXAR AGORA!</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4a5ddd64 elementor-widget elementor-widget-text-editor" data-id="4a5ddd64" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: center;"><span style="color: #333333;"><i style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; background-image: none; background-position: 0px 0px; background-size: initial; background-repeat: repeat; background-attachment: scroll; background-origin: initial; background-clip: initial; font-family: Poppins, sans-serif; font-size: 14px; outline: 0px; line-height: inherit; text-align: center; white-space: pre-wrap;">OBS: Não sabemos por quanto tempo conseguiremos deixar esta página no ar, então recomendamos que aproveite a oportunidade enquanto pode…</i></span></p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-70764e5c" data-id="70764e5c" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-10786b9b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="10786b9b" data-element_type="section" data-settings="{" background_background":"classic","shape_divider_bottom":"mountains"}"="">
+					<div class="elementor-shape elementor-shape-bottom" data-negative="false">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+	<path class="elementor-shape-fill" opacity="0.33" d="M473,67.3c-203.9,88.3-263.1-34-320.3,0C66,119.1,0,59.7,0,59.7V0h1000v59.7 c0,0-62.1,26.1-94.9,29.3c-32.8,3.3-62.8-12.3-75.8-22.1C806,49.6,745.3,8.7,694.9,4.7S492.4,59,473,67.3z"></path>
+	<path class="elementor-shape-fill" opacity="0.66" d="M734,67.3c-45.5,0-77.2-23.2-129.1-39.1c-28.6-8.7-150.3-10.1-254,39.1 s-91.7-34.4-149.2,0C115.7,118.3,0,39.8,0,39.8V0h1000v36.5c0,0-28.2-18.5-92.1-18.5C810.2,18.1,775.7,67.3,734,67.3z"></path>
+	<path class="elementor-shape-fill" d="M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z"></path>
+</svg>		</div>
+					<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-5841a9ea" data-id="5841a9ea" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+				<div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-6c94133a" data-id="6c94133a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-130f041e elementor-widget elementor-widget-text-editor" data-id="130f041e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>VANTAGENS E BENEFÍCIOS</p>						</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-56e265af elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="56e265af" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-42161223" data-id="42161223" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-3b2edccf elementor-view-default elementor-widget elementor-widget-icon" data-id="3b2edccf" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="far fa-clock"></i>			</div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3192eee8" data-id="3192eee8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-1280e477 elementor-widget elementor-widget-heading" data-id="1280e477" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Tudo Automático
+
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-31b65029 elementor-widget elementor-widget-text-editor" data-id="31b65029" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Planilhas prontas para uso de diversas áreas empresariais, como financeiro, recursos humanos, qualidade, estratégia, vendas, marketing e muito mais!</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-4b217eb elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4b217eb" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3f9e3a6" data-id="3f9e3a6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-c7685b6 elementor-view-default elementor-widget elementor-widget-icon" data-id="c7685b6" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="far fa-file-excel"></i>			</div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-8a8430e" data-id="8a8430e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-342e96f elementor-widget elementor-widget-heading" data-id="342e96f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Todas Editáveis
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-94a50e5 elementor-widget elementor-widget-text-editor" data-id="94a50e5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>As planilhas são 100% editáveis, não têm nenhuma limitação estão todas organizadas e categorizadas por área</p></div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-d0a9d68 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d0a9d68" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-486a820" data-id="486a820" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2268ed7 elementor-view-default elementor-widget elementor-widget-icon" data-id="2268ed7" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="fas fa-infinity"></i>			</div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3bd4e2a" data-id="3bd4e2a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-d936938 elementor-widget elementor-widget-heading" data-id="d936938" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Acesso Vitalício</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-7ca7a33 elementor-widget elementor-widget-text-editor" data-id="7ca7a33" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Pague somente uma vez e tenha acesso VITALÍCIO a todas as atualizações feitas mensalmente!</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-74626ca elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="74626ca" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-a5f1df6" data-id="a5f1df6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-8e8854b elementor-view-default elementor-widget elementor-widget-icon" data-id="8e8854b" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="fas fa-shield-alt"></i>			</div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-a3ddf51" data-id="a3ddf51" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-22c0261 elementor-widget elementor-widget-heading" data-id="22c0261" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Garantia</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-12d9cf2 elementor-widget elementor-widget-text-editor" data-id="12d9cf2" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<div id="op3-element-Ux1yA8Z4" class="op3-element " data-op3-uuid="Ux1yA8Z4" data-op3-gid="" data-op3-element-type="section" data-op3-element-spec="" data-op3-element-caption="Section #Ux1yA8Z4" data-op-visibility-hidden="0" data-op-element-hidden="0" data-op3-style-id="" data-op3-has-children="1"><div data-op3-element-container="" data-op-animation-trigger="none" data-op-animation-style="" data-op-animation-loop="0" data-op-timer-minutes="0" data-op-timer-seconds="0" data-op3-sticky="0" data-op3-sticky-active-desktop="1" data-op3-sticky-active-tablet="1" data-op3-sticky-active-mobile="0" data-op3-sticky-top-desktop="0" data-op3-sticky-top-tablet="0" data-op3-sticky-top-mobile="0" data-op3-sticky-until="0" data-op3-sticky-until-element=""><div data-op3-children="1"><div id="op3-element-0lgSqYs7" class="op3-element " data-op3-uuid="0lgSqYs7" data-op3-gid="" data-op3-element-type="row" data-op3-element-spec="" data-op3-element-caption="Row #0lgSqYs7" data-op-visibility-hidden="0" data-op-element-hidden="0" data-op3-style-id="" data-op3-has-children="1"><div data-op3-element-container="" data-op-animation-trigger="none" data-op-animation-style="" data-op-animation-loop="0" data-op-timer-minutes="0" data-op-timer-seconds="0" data-op3-sticky="0" data-op3-sticky-active-desktop="1" data-op3-sticky-active-tablet="1" data-op3-sticky-active-mobile="0" data-op3-sticky-top-desktop="0" data-op3-sticky-top-tablet="0" data-op3-sticky-top-mobile="0" data-op3-sticky-until="0" data-op3-sticky-until-element=""><div data-op3-children="1" data-op3-stack-columns-desktop="0" data-op3-stack-columns-desktop-reverse="0" data-op3-stack-columns-tablet="0" data-op3-stack-columns-tablet-reverse="0" data-op3-stack-columns-mobile="1" data-op3-stack-columns-mobile-reverse="0" data-op3-wrap-columns-desktop="0" data-op3-wrap-columns-tablet="0" data-op3-wrap-columns-mobile="0"><div id="op3-element-hcQnVpny" class="op3-element " data-op3-uuid="hcQnVpny" data-op3-gid="" data-op3-element-type="column" data-op3-element-spec="" data-op3-element-caption="Column #hcQnVpny" data-op-visibility-hidden="0" data-op-element-hidden="0" data-op3-style-id="" data-op3-has-children="1"><div class="op3-column-content op3-background-parent" data-op-animation-trigger="none" data-op-animation-style="" data-op-animation-loop="0" data-op-timer-minutes="0" data-op-timer-seconds="0"><div data-op3-element-container=""><div data-op3-children="2"><div id="op3-element-VsNcWJnw" class="op3-element " data-op3-uuid="VsNcWJnw" data-op3-gid="" data-op3-element-type="featureblock" data-op3-element-spec="" data-op3-element-caption="Feature Block #VsNcWJnw" data-op-visibility-hidden="0" data-op-element-hidden="0" data-op3-style-id="" data-op3-has-children="1"><div data-op3-element-container="" data-op-animation-trigger="none" data-op-animation-style="" data-op-animation-loop="0" data-op-timer-minutes="0" data-op-timer-seconds="0"><div data-op3-children="4" data-op3-stack-columns-desktop="0" data-op3-stack-columns-desktop-reverse="0" data-op3-stack-columns-tablet="1" data-op3-stack-columns-tablet-reverse="0" data-op3-stack-columns-mobile="1" data-op3-stack-columns-mobile-reverse="0" data-op3-wrap-columns-desktop="0" data-op3-wrap-columns-tablet="0" data-op3-wrap-columns-mobile="0" data-op3-block-display-media="image" data-op3-block-display-title="1" data-op3-block-display-subtitle="0" data-op3-block-display-text="1" data-op3-block-display-button="0" data-op3-block-layout-desktop="8" data-op3-block-layout-tablet="null" data-op3-block-layout-mobile="null"><div id="op3-element-fkzlIKnM" class="op3-element " data-op3-uuid="fkzlIKnM" data-op3-gid="" data-op3-element-type="featureblockitem" data-op3-element-spec="" data-op3-element-caption="Feature Block Item #fkzlIKnM" data-op-visibility-hidden="0" data-op-element-hidden="0" data-op3-style-id="" data-op3-has-children="1"><div class="op3-column-content op3-background-parent" data-op-animation-trigger="none" data-op-animation-style="" data-op-animation-loop="0" data-op-timer-minutes="0" data-op-timer-seconds="0"><div data-op3-element-container=""><div data-op3-children="6"><div id="op3-element-OeUR1Rri" class="op3-element " data-op3-uuid="OeUR1Rri" data-op3-gid="" data-op3-element-type="text" data-op3-element-spec="text" data-op3-element-caption="Text Editor #OeUR1Rri" data-op-visibility-hidden="0" data-op-element-hidden="0" data-op3-style-id="" data-op3-has-children="0"><div class="op3-text-wrapper" data-op-animation-trigger="none" data-op-animation-style="" data-op-animation-loop="0" data-op-timer-minutes="0" data-op-timer-seconds="0"><div data-op3-contenteditable=""><p>Você pode testar todas as planilhas por 7 dias, se preferir é só cancelar.</p></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><div id="op3-element-wdfRsnf2" class="op3-element " data-op3-uuid="wdfRsnf2" data-op3-gid="" data-op3-element-type="section" data-op3-element-spec="" data-op3-element-caption="Section #wdfRsnf2" data-op-visibility-hidden="0" data-op-element-hidden="0" data-op3-style-id="" data-op3-has-children="1"><div data-op3-element-container="" data-op-animation-trigger="" data-op-animation-style="" data-op-animation-loop="" data-op-timer-minutes="" data-op-timer-seconds="" data-op3-sticky="" data-op3-sticky-active-desktop="" data-op3-sticky-active-tablet="" data-op3-sticky-active-mobile="" data-op3-sticky-top-desktop="" data-op3-sticky-top-tablet="" data-op3-sticky-top-mobile="" data-op3-sticky-until="" data-op3-sticky-until-element=""></div></div>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-153ce2f4" data-id="153ce2f4" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-4c2e3b4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4c2e3b4" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-876160d" data-id="876160d" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+				<div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-35890b8" data-id="35890b8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-71a5937 elementor-widget elementor-widget-heading" data-id="71a5937" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">TENHA ACESSO IMEDIATO A TUDO ISSO!</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-15370c4 elementor-widget elementor-widget-text-editor" data-id="15370c4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: center;">São <strong>Planilhas Premium</strong> para qualquer negócio, para qualquer atividade do seu dia a dia, podem ser utilizadas em casa, no trabalho, em empresas de pequeno, médio e grande porte.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-6858a1f elementor-widget elementor-widget-text-editor" data-id="6858a1f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<h4 style="text-align: center;"><strong>Com este kit você irá descomplicar as tarefas do dia a dia, tornando tudo muito mais fácil, rápido e prático. Todas as planilhas são prontas, mas você poderá editá-las, modificando-as de acordo com sua necessidade.</strong></h4>						</div>
+				</div>
+				<div class="elementor-element elementor-element-deb4aee elementor-mobile-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="deb4aee" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Administrativas</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Agendas, Calendários e Datas</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Agro</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Apostilas e Tutoriais</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Auto e Oficinas</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Cadastros Diversos</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Compras</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Contábil</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Custos</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Diversas</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Energia</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Engenharia Civil</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Escolar</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Estoque</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Exercícios Matemáticos</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Financeiras</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Gestão de Negócios</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Gestão Escolar</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Gráficos Dashboards Diversos</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Imóveis</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Jogos e Testes</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Jurídicas</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Modelos de Dashboards</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Pet Shop</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Produção</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">RH e DP</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Saúde e Segurança</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Serviços de Engenharia</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Vendas</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-f2952aa elementor-align-center elementor-widget elementor-widget-button" data-id="f2952aa" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#QUEROACESSAR" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-pulse" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">QUERO BAIXAR AGORA!</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-89d2d37" data-id="89d2d37" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-1ae5fdfc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1ae5fdfc" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6e100520" data-id="6e100520" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-5d769b38 elementor-widget elementor-widget-image" data-id="5d769b38" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="400" height="400" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20400%20400'%3E%3C/svg%3E" class="attachment-large size-large wp-image-55" alt="" data-lazy-srcset="https://reidasplanilhas.site/wp-content/uploads/2023/02/selo-garantia.png 400w, https://reidasplanilhas.site/wp-content/uploads/2023/02/selo-garantia-300x300.png 300w, https://reidasplanilhas.site/wp-content/uploads/2023/02/selo-garantia-150x150.png 150w" data-lazy-sizes="(max-width: 400px) 100vw, 400px" data-lazy-src="https://reidasplanilhas.site/wp-content/uploads/2023/02/selo-garantia.png"><noscript><img decoding="async" width="400" height="400" src="https://reidasplanilhas.site/wp-content/uploads/2023/02/selo-garantia.png" class="attachment-large size-large wp-image-55" alt="" srcset="https://reidasplanilhas.site/wp-content/uploads/2023/02/selo-garantia.png 400w, https://reidasplanilhas.site/wp-content/uploads/2023/02/selo-garantia-300x300.png 300w, https://reidasplanilhas.site/wp-content/uploads/2023/02/selo-garantia-150x150.png 150w" sizes="(max-width: 400px) 100vw, 400px" /></noscript>															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1f6844b" data-id="1f6844b" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-43e8f7e3 elementor-widget elementor-widget-text-editor" data-id="43e8f7e3" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>VOCÊ TEM<strong> RISCO ZERO! ​</strong></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-25b1b819 elementor-widget elementor-widget-text-editor" data-id="25b1b819" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: center;"><strong>NÓS GARANTIMOS 100% DO SEU DINHEIRO DE VOLTA.</strong></p><p style="text-align: center;">Após inúmeros feedbacks de resultados reais e com absoluta certeza da alta qualidade dos nossos materiais podemos garantir que não irá se arrepender..</p><p style="text-align: center;">Sendo assim, você pode receber o material e se você não gostar, não se adaptar, ou tiver algum imprevisto, basta nos enviar um e-mail que te devolvemos TODO O SEU INVESTIMENTO em até 7 dias após a compra.</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-46fecee8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="46fecee8" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-7542d0c9" data-id="7542d0c9" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+				<div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-6c01760" data-id="6c01760" data-element_type="column" data-settings="{" background_background":"gradient"}"="">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-5b49159d elementor-widget elementor-widget-menu-anchor" data-id="5b49159d" data-element_type="widget" data-widget_type="menu-anchor.default">
+				<div class="elementor-widget-container">
+					<div id="QUEROACESSAR" class="elementor-menu-anchor"></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-3d5177dc elementor-widget elementor-widget-text-editor" data-id="3d5177dc" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><b>Escolha</b> o seu plano</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-6447d83d" data-id="6447d83d" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-4e815c7e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4e815c7e" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-69af6d56" data-id="69af6d56" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3455aeb5" data-id="3455aeb5" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-5080edcb elementor-widget elementor-widget-text-editor" data-id="5080edcb" data-element_type="widget" id="planos" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>PLANO BÁSICO</p><h4><strong>12.000 Planilhas</strong></h4>						</div>
+				</div>
+				<div class="elementor-element elementor-element-252711b4 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="252711b4" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check-circle"></i>						</span>
+										<span class="elementor-icon-list-text">KIT COM 12.000 PLANILHAS EM EXCEL</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check-circle"></i>						</span>
+										<span class="elementor-icon-list-text">7 DIAS DE GARANTIA INCONDICIONAL</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check-circle"></i>						</span>
+										<span class="elementor-icon-list-text">ACESSO VITALÍCIO</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4b152bb6 elementor-widget elementor-widget-text-editor" data-id="4b152bb6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><i>Por</i>&nbsp;<strong>R$ 17,00</strong></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-4be165a4 elementor-widget elementor-widget-text-editor" data-id="4be165a4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><strong>Pagamento único, sem nenhum tipo de mensalidade</strong></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-58ba2fce elementor-align-center elementor-widget elementor-widget-button" data-id="58ba2fce" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://go.perfectpay.com.br/PPU38CLMOU7?" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-pulse" role="button" id="COMPRAR">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">QUERO ACESSAR AGORA</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-3cba282d" data-id="3cba282d" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-19cb701 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="19cb701" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-73a80b70" data-id="73a80b70" data-element_type="column" data-settings="{" background_background":"gradient"}"="">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-44bd2758" data-id="44bd2758" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-42f22e1b elementor-widget elementor-widget-text-editor" data-id="42f22e1b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<h4 style="text-align: center;"><strong>PLANO COMPLETO</strong><br><strong>21.000 Planilhas&nbsp;</strong><br>(+9 Bônus Exclusivos)</h4>						</div>
+				</div>
+				<div class="elementor-element elementor-element-5dbe63cd elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="5dbe63cd" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">KIT COM 21.000 PLANILHAS EM EXCEL</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">7 DIAS DE GARANTIA INCONDICIONAL</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">ACESSO VITALÍCIO</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check-circle"></i>						</span>
+										<span class="elementor-icon-list-text">Bônus 01 - 50.000 Modelos de Slides Prontos no PowerPoint</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check-circle"></i>						</span>
+										<span class="elementor-icon-list-text">Bônus 02 - 4.000 Modelos de Documentos para Word</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check-circle"></i>						</span>
+										<span class="elementor-icon-list-text">Bônus 03 - 90 MODELOS DE APRESENTAÇÃO NO CANVA </span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check-circle"></i>						</span>
+										<span class="elementor-icon-list-text">Bônus 04 - 100 Modelos de E-mails prontos</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check-circle"></i>						</span>
+										<span class="elementor-icon-list-text">Bônus 05 - 600 Modelos de Cartas no Word</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check-circle"></i>						</span>
+										<span class="elementor-icon-list-text">Bônus 06 - 21 Idéias Para Obter Mais Produtividade e Obter Mais Resultados</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check-circle"></i>						</span>
+										<span class="elementor-icon-list-text">Bônus 07 - E-book: Segredos da Mente de Um Empreendedor de Sucesso</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check-circle"></i>						</span>
+										<span class="elementor-icon-list-text">Bônus 08 - E-Book:  MINDSET DOS MILIONÁRIOS - 9 PASSOS PARA ALCANÇAR RESULTADOS EXTRAORDINÁRIOS</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check-circle"></i>						</span>
+										<span class="elementor-icon-list-text">Bônus 09 - E-book: Usando o Pensamento Positivo Como Chave do Sucesso</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-75b961c6 elementor-widget elementor-widget-text-editor" data-id="75b961c6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><i>Por</i>&nbsp;<strong>R$ 27,90</strong></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-703c9acf elementor-widget elementor-widget-text-editor" data-id="703c9acf" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><strong>Pagamento único</strong>, sem nenhum tipo de mensalidade</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-76d99fe2 elementor-align-center elementor-widget elementor-widget-button" data-id="76d99fe2" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://go.perfectpay.com.br/PPU38CLMP1G" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-pulse" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">QUERO ACESSAR AGORA</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-39afa289" data-id="39afa289" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-177e3269 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="177e3269" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-68068249" data-id="68068249" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-58744122" data-id="58744122" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-624df6ed elementor-view-default elementor-widget elementor-widget-icon" data-id="624df6ed" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="far fa-paper-plane"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-1c8aa5c4 elementor-widget elementor-widget-text-editor" data-id="1c8aa5c4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><span style="color: #ffffff;">ACESSO IMEDIATO</span></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-3dd863a elementor-widget elementor-widget-text-editor" data-id="3dd863a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><span style="color: #ffffff;">Após a compra, você receberá o seu acesso diretamente no email de compra</span></p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-c7664c2" data-id="c7664c2" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-24db9002 elementor-view-default elementor-widget elementor-widget-icon" data-id="24db9002" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="fas fa-shield-alt"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-2cfd1a5e elementor-widget elementor-widget-text-editor" data-id="2cfd1a5e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>PAGAMENTO SEGURO</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-7e4ac44e elementor-widget elementor-widget-text-editor" data-id="7e4ac44e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Fique tranquilo. Todos os seus dados de pagamento estão seguros, pois usamos uma das maiores plataformas do Brasil para processar os pagamentos</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-7c9d7e76" data-id="7c9d7e76" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-39e9a59d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="39e9a59d" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-666ede1d" data-id="666ede1d" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-3a96939b elementor-widget elementor-widget-text-editor" data-id="3a96939b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><span style="color: #000000;">PERGUNTAS FREQUENTES <b>(SÓ PARA QUEM ROLOU A PÁGINA ATÉ O FIM…)</b></span></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-71d36bea elementor-widget elementor-widget-accordion" data-id="71d36bea" data-element_type="widget" data-widget_type="accordion.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-accordion" role="tablist">
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-1901" class="elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-1901" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" href="">Em quantos computadores ou smartphones posso usar as planilhas?</a>
+					</div>
+					<div id="elementor-tab-content-1901" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-1901"><p>Você pode baixar e utilizar em todos os dispositivos de forma livre.</p></div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-1902" class="elementor-tab-title" data-tab="2" role="tab" aria-controls="elementor-tab-content-1902" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" href="">Por quanto tempo e quantas vezes poderei baixar as planilhas?</a>
+					</div>
+					<div id="elementor-tab-content-1902" class="elementor-tab-content elementor-clearfix" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-1902"><p>Você poderá acessar as planilhas sempre que quiser. Sem prazos ou limite de acessos. Entendemos que uma vez comprado o kit de planilhas é seu e não há prazos. O acesso é vitalício!</p></div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-1903" class="elementor-tab-title" data-tab="3" role="tab" aria-controls="elementor-tab-content-1903" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" href="">Preciso ter algum conhecimento específico para usar as planlilhas?</a>
+					</div>
+					<div id="elementor-tab-content-1903" class="elementor-tab-content elementor-clearfix" data-tab="3" role="tabpanel" aria-labelledby="elementor-tab-title-1903"><p>Qualquer pessoa com um mínimo de conhecimento em Excel pode utilizar este pacote de planilhas para facilitar o seu trabalho.Qualquer pessoa com um mínimo de conhecimento em Excel pode utilizar este pacote de planilhas para facilitar o seu trabalho.</p></div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-1904" class="elementor-tab-title" data-tab="4" role="tab" aria-controls="elementor-tab-content-1904" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" href="">Caso eu não goste do conteúdo, o que devo fazer?</a>
+					</div>
+					<div id="elementor-tab-content-1904" class="elementor-tab-content elementor-clearfix" data-tab="4" role="tabpanel" aria-labelledby="elementor-tab-title-1904"><p>Oferecemos aos nossos alunos 7 dias de Garantia de Satisfação. Após o acesso liberado, o aluno possui 7 dias para nos mandar um e-mail solicitando a devolução integral do valor investido e prosseguiremos com a devolução, sem maiores questionamentos.</p></div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-1905" class="elementor-tab-title" data-tab="5" role="tab" aria-controls="elementor-tab-content-1905" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" href="">Preciso ficar sempre online para usar as planilhas?</a>
+					</div>
+					<div id="elementor-tab-content-1905" class="elementor-tab-content elementor-clearfix" data-tab="5" role="tabpanel" aria-labelledby="elementor-tab-title-1905"><p>Não! Você baixa tudo para o seu computador e usa livremente!</p></div>
+				</div>
+								</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-73f3a940 elementor-widget elementor-widget-text-editor" data-id="73f3a940" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><span style="color: #000000;">Se você chegou até aqui, e ainda não se decidiu… tem <strong>algo de muito errado contigo…</strong></span></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-6fe28898 elementor-widget elementor-widget-text-editor" data-id="6fe28898" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><span style="color: #000000;">Eu vou te dar uma última chance pra que não precise rolar essa página toda de novo tá?</span></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-3f0a195d elementor-align-center elementor-widget elementor-widget-button" data-id="3f0a195d" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#QUEROACESSAR" class="elementor-button-link elementor-button elementor-size-lg elementor-animation-pulse" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">CLIQUE PARA SAIR DA INDECISÃO</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-4941f571 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4941f571" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-57357ab5" data-id="57357ab5" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-3a6e939d elementor-widget elementor-widget-text-editor" data-id="3a6e939d" data-element_type="widget" data-widget_type="text-editor.default">
+
+									<p><a href="./images/politicas.html" style="color: rgb(255, 255, 255);">Política de Privacidade</a> —
+									<a href="./images/termos.html" style="color: rgb(255, 255, 255);">Termos de Uso</a> —
+									<a href="./images/avisos.html" style="color: rgb(255, 255, 255);">Aviso Legal</a>
+								</p>
+									<p style="color: #ffffff;">Atendimento através: contato@produtosaprovados.shop</p>
+									<p style="color: #ffffff;">CNPJ: 69.183.176/0001-22 // ©️ 2024 - Lumina Part. Todos os direitos reservados</p>
+
+				<div class="elementor-element elementor-element-8f9b223 elementor-widget elementor-widget-html" data-id="8f9b223" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<script>
+
+    let prefix = ["https://checkout.perfectpay.com.br", "https://go.perfectpay.com.br"];
+
+
+function getParams() {
+
+    let t = "",
+
+        e = window.top.location.href,
+
+        r = new URL(e);
+
+    if (null != r) {
+
+        let a = r.searchParams.get("utm_source"),
+
+            n = r.searchParams.get("utm_medium"),
+
+            o = r.searchParams.get("utm_campaign"),
+
+            m = r.searchParams.get("utm_term"),
+
+            c = r.searchParams.get("utm_content"); - 1 !== e.indexOf("?") && (t = `&sck=${a}|${n}|${o}|${m}|${c}`), console.log(t)
+
+    }
+
+    return t
+
+}! function() {
+
+    var t = new URLSearchParams(window.location.search);
+
+    t.toString() && document.querySelectorAll("a").forEach(function(e) {
+
+        for (let r = 0; r < prefix.length; r++) - 1 !== e.href.indexOf(prefix[r]) && (-1 === e.href.indexOf("?") ? e.href += "?" + t.toString() + getParams() : e.href += "&" + t.toString() + getParams())
+
+    })
+
+}();
+
+</script>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		<div id="qlwapp" class="qlwapp-free qlwapp-bubble qlwapp-bottom-right qlwapp-all qlwapp-rounded">
+	<div class="qlwapp-container">
+		
+		<a class="qlwapp-toggle" data-action="open" data-phone="5587988399011" data-message="" href="javascript:void(0);" target="_blank">
+							<i class="qlwapp-icon qlwapp-whatsapp-icon"></i>
+						<i class="qlwapp-close" data-action="close">×</i>
+					</a>
+	</div>
+</div><style id="core-block-supports-inline-css">
+/**
+ * Core styles: block-supports
+ */
+
+</style>
+
+<script id="rocket-browser-checker-js-after">
+class RocketBrowserCompatibilityChecker {
+
+	constructor( options ) {
+		this.passiveSupported = false;
+
+		this._checkPassiveOption( this );
+		this.options = this.passiveSupported ? options : false;
+	}
+
+	/**
+	 * Initializes browser check for addEventListener passive option.
+	 *
+	 * @link https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#Safely_detecting_option_support
+	 * @private
+	 *
+	 * @param self Instance of this object.
+	 * @returns {boolean}
+	 */
+	_checkPassiveOption( self ) {
+		try {
+			const options = {
+				// This function will be called when the browser attempts to access the passive property.
+				get passive() {
+					self.passiveSupported = true;
+					return false;
+				}
+			};
+
+			window.addEventListener( 'test', null, options );
+			window.removeEventListener( 'test', null, options );
+		} catch ( err ) {
+			self.passiveSupported = false;
+		}
+	}
+
+	/**
+	 * Checks if the browser supports requestIdleCallback and cancelIdleCallback. If no, shims its behavior with a polyfills.
+	 *
+	 * @link @link https://developers.google.com/web/updates/2015/08/using-requestidlecallback
+	 */
+	initRequestIdleCallback() {
+		if ( ! 'requestIdleCallback' in window ) {
+			window.requestIdleCallback = ( cb ) => {
+				const start = Date.now();
+				return setTimeout( () => {
+					cb( {
+						didTimeout: false,
+						timeRemaining: function timeRemaining() {
+							return Math.max( 0, 50 - ( Date.now() - start ) );
+						}
+					} );
+				}, 1 );
+			};
+		}
+
+		if ( ! 'cancelIdleCallback' in window ) {
+			window.cancelIdleCallback = ( id ) => clearTimeout( id );
+		}
+	}
+
+	/**
+	 * Detects if data saver mode is on.
+	 *
+	 * @link https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/save-data/#detecting_the_save-data_setting
+	 *
+	 * @returns {boolean|boolean}
+	 */
+	isDataSaverModeOn() {
+		return (
+			'connection' in navigator
+			&&
+			true === navigator.connection.saveData
+		);
+	}
+
+	/**
+	 * Checks if the browser supports link prefetch.
+	 *
+	 * @returns {boolean|boolean}
+	 */
+	supportsLinkPrefetch() {
+		const elem = document.createElement( 'link' );
+		return (
+			elem.relList
+			&&
+			elem.relList.supports
+			&&
+			elem.relList.supports( 'prefetch' )
+			&&
+			window.IntersectionObserver
+			&&
+			'isIntersecting' in IntersectionObserverEntry.prototype
+		);
+	}
+
+	isSlowConnection() {
+		return (
+			'connection' in navigator
+			&&
+			'effectiveType' in navigator.connection
+			&&
+			(
+				'2g' === navigator.connection.effectiveType
+				||
+				'slow-2g' === navigator.connection.effectiveType
+			)
+		)
+	}
+}
+</script>
+<script id="rocket-preload-links-js-extra">
+var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index\\.php\/)?(.*)wp\\-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/reidasplanilhas.site","onHoverDelay":"100","rateThrottle":"3"};
+</script>
+<script id="rocket-preload-links-js-after">
+class RocketPreloadLinks {
+
+	constructor( browser, config ) {
+		this.browser = browser;
+		this.config  = config;
+		this.options = this.browser.options;
+
+		this.prefetched = new Set;
+		this.eventTime  = null;
+		this.threshold  = 1111;
+		this.numOnHover = 0;
+	}
+
+	/**
+	 * Initializes the handler.
+	 */
+	init() {
+		if (
+			! this.browser.supportsLinkPrefetch()
+			||
+			this.browser.isDataSaverModeOn()
+			||
+			this.browser.isSlowConnection()
+		) {
+			return;
+		}
+
+		this.regex = {
+			excludeUris: RegExp( this.config.excludeUris, 'i' ),
+			images: RegExp( '.(' + this.config.imageExt + ')$', 'i' ),
+			fileExt: RegExp( '.(' + this.config.fileExt + ')$', 'i' )
+		};
+
+		this._initListeners( this );
+	}
+
+	/**
+	 * Initializes the event listeners.
+	 *
+	 * @private
+	 *
+	 * @param self instance of this object, used for binding "this" to the listeners.
+	 */
+	_initListeners( self ) {
+		// Setting onHoverDelay to -1 disables the "on-hover" feature.
+		if ( this.config.onHoverDelay > -1 ) {
+			document.addEventListener( 'mouseover', self.listener.bind( self ), self.listenerOptions );
+		}
+
+		document.addEventListener( 'mousedown', self.listener.bind( self ), self.listenerOptions );
+		document.addEventListener( 'touchstart', self.listener.bind( self ), self.listenerOptions );
+	}
+
+	/**
+	 * Event listener. Processes when near or on a valid <a> hyperlink.
+	 *
+	 * @param Event event Event instance.
+	 */
+	listener( event ) {
+		const linkElem = event.target.closest( 'a' );
+		const url      = this._prepareUrl( linkElem );
+		if ( null === url ) {
+			return;
+		}
+
+		switch ( event.type ) {
+			case 'mousedown':
+			case 'touchstart':
+				this._addPrefetchLink( url );
+				break;
+			case 'mouseover':
+				this._earlyPrefetch( linkElem, url, 'mouseout' );
+		}
+	}
+
+	/**
+	 *
+	 * @private
+	 *
+	 * @param Element|null linkElem
+	 * @param object url
+	 * @param string resetEvent
+	 */
+	_earlyPrefetch( linkElem, url, resetEvent ) {
+		const doPrefetch = () => {
+			falseTrigger = null;
+
+			// Start the rate throttle: 1 sec timeout.
+			if ( 0 === this.numOnHover ) {
+				setTimeout( () => this.numOnHover = 0, 1000 );
+			}
+			// Bail out when exceeding the rate throttle.
+			else if ( this.numOnHover > this.config.rateThrottle ) {
+				return;
+			}
+
+			this.numOnHover++;
+			this._addPrefetchLink( url );
+		};
+
+		// Delay to avoid false triggers for hover/touch/tap.
+		let falseTrigger = setTimeout( doPrefetch, this.config.onHoverDelay );
+
+		// On reset event, reset the false trigger timer.
+		const reset = () => {
+			linkElem.removeEventListener( resetEvent, reset, { passive: true } );
+			if ( null === falseTrigger ) {
+				return;
+			}
+
+			clearTimeout( falseTrigger );
+			falseTrigger = null;
+		};
+		linkElem.addEventListener( resetEvent, reset, { passive: true } );
+	}
+
+	/**
+	 * Adds a <link rel="prefetch" href="<url>"> for the given URL.
+	 *
+	 * @param string url The Given URL to prefetch.
+	 */
+	_addPrefetchLink( url ) {
+		this.prefetched.add( url.href );
+
+		return new Promise( ( resolve, reject ) => {
+			const elem   = document.createElement( 'link' );
+			elem.rel     = 'prefetch';
+			elem.href    = url.href;
+			elem.onload  = resolve;
+			elem.onerror = reject;
+
+			document.head.appendChild( elem );
+		} ).catch(() => {
+			// ignore and continue.
+		});
+	}
+
+	/**
+	 * Prepares the target link's URL.
+	 *
+	 * @private
+	 *
+	 * @param Element|null linkElem Instance of the link element.
+	 * @returns {null|*}
+	 */
+	_prepareUrl( linkElem ) {
+		if (
+			null === linkElem
+			||
+			typeof linkElem !== 'object'
+			||
+			! 'href' in linkElem
+			||
+			// Link prefetching only works on http/https protocol.
+			[ 'http:', 'https:' ].indexOf( linkElem.protocol ) === -1
+		) {
+			return null;
+		}
+
+		const origin   = linkElem.href.substring( 0, this.config.siteUrl.length );
+		const pathname = this._getPathname( linkElem.href, origin );
+		const url      = {
+			original: linkElem.href,
+			protocol: linkElem.protocol,
+			origin: origin,
+			pathname: pathname,
+			href: origin + pathname
+		};
+
+		return this._isLinkOk( url ) ? url : null;
+	}
+
+	/**
+	 * Gets the URL's pathname. Note: ensures the pathname matches the permalink structure.
+	 *
+	 * @private
+	 *
+	 * @param object url Instance of the URL.
+	 * @param string origin The target link href's origin.
+	 * @returns {string}
+	 */
+	_getPathname( url, origin ) {
+		let pathname = origin
+			? url.substring( this.config.siteUrl.length )
+			: url;
+
+		if ( ! pathname.startsWith( '/' ) ) {
+			pathname = '/' + pathname;
+		}
+
+		if ( this._shouldAddTrailingSlash( pathname ) ) {
+			return pathname + '/';
+		}
+
+		return pathname;
+	}
+
+	_shouldAddTrailingSlash( pathname ) {
+		return (
+			this.config.usesTrailingSlash
+			&&
+			! pathname.endsWith( '/' )
+			&&
+			! this.regex.fileExt.test( pathname )
+		);
+	}
+
+	/**
+	 * Checks if the given link element is okay to process.
+	 *
+	 * @private
+	 *
+	 * @param object url URL parts object.
+	 *
+	 * @returns {boolean}
+	 */
+	_isLinkOk( url ) {
+		if ( null === url || typeof url !== 'object' ) {
+			return false;
+		}
+
+		return (
+			! this.prefetched.has( url.href )
+			&&
+			url.origin === this.config.siteUrl // is an internal document.
+			&&
+			url.href.indexOf( '?' ) === -1 // not a query string.
+			&&
+			url.href.indexOf( '#' ) === -1 // not an anchor.
+			&&
+			! this.regex.excludeUris.test( url.href ) // not excluded.
+			&&
+			! this.regex.images.test( url.href ) // not an image.
+		);
+	}
+
+	/**
+	 * Named static constructor to encapsulate how to create the object.
+	 */
+	static run() {
+		// Bail out if the configuration not passed from the server.
+		if ( typeof RocketPreloadLinksConfig === 'undefined' ) {
+			return;
+		}
+
+		const browser  = new RocketBrowserCompatibilityChecker( {
+			capture: true,
+			passive: true
+		} );
+		const instance = new RocketPreloadLinks( browser, RocketPreloadLinksConfig );
+		instance.init();
+	}
+}
+
+RocketPreloadLinks.run();
+</script>
+<script src="js/hello-frontend.js" id="hello-theme-frontend-js"></script>
+<script src="js/index.js" id="qlwapp-js"></script>
+<script src="js/heartbeat.js" id="heartbeat-js"></script>
+<script src="js/webpack.runtime.js" id="elementor-webpack-runtime-js"></script>
+<script src="js/frontend-modules.js" id="elementor-frontend-modules-js"></script>
+<script src="js/waypoints.js" id="elementor-waypoints-js"></script>
+<script src="js/core.js" id="jquery-ui-core-js"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":true},"i18n":{"shareOnFacebook":"Compartilhar no Facebook","shareOnTwitter":"Compartilhar no Twitter","pinIt":"Fixar","download":"Baixar","downloadImage":"Baixar imagem","fullscreen":"Tela cheia","zoom":"Zoom","share":"Compartilhar","playVideo":"Reproduzir v\u00eddeo","previous":"Anterior","next":"Pr\u00f3ximo","close":"Fechar"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Celular","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Celular extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.11.2","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"a11y_improvements":true,"additional_custom_breakpoints":true,"hello-theme-header-footer":true,"landing-pages":true,"kit-elements-defaults":true},"urls":{"assets":"https:\/\/reidasplanilhas.site\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper-container","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"title","hello_footer_logo_type":"logo"},"post":{"id":337,"title":"rdp1-ce%20%E2%80%93%20Rei%20das%20Planilhas","excerpt":"","featuredImage":false}};
+</script>
+<script src="js/frontend.js" id="elementor-frontend-js"></script>
+<script>window.lazyLoadOptions = [{
+                elements_selector: "img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",
+                data_src: "lazy-src",
+                data_srcset: "lazy-srcset",
+                data_sizes: "lazy-sizes",
+                class_loading: "lazyloading",
+                class_loaded: "lazyloaded",
+                threshold: 300,
+                callback_loaded: function(element) {
+                    if ( element.tagName === "IFRAME" && element.dataset.rocketLazyload == "fitvidscompatible" ) {
+                        if (element.classList.contains("lazyloaded") ) {
+                            if (typeof window.jQuery != "undefined") {
+                                if (jQuery.fn.fitVids) {
+                                    jQuery(element).parent().fitVids();
+                                }
+                            }
+                        }
+                    }
+                }},{
+				elements_selector: ".rocket-lazyload",
+				data_src: "lazy-src",
+				data_srcset: "lazy-srcset",
+				data_sizes: "lazy-sizes",
+				class_loading: "lazyloading",
+				class_loaded: "lazyloaded",
+				threshold: 300,
+			}];
+        window.addEventListener('LazyLoad::Initialized', function (e) {
+            var lazyLoadInstance = e.detail.instance;
+
+            if (window.MutationObserver) {
+                var observer = new MutationObserver(function(mutations) {
+                    var image_count = 0;
+                    var iframe_count = 0;
+                    var rocketlazy_count = 0;
+
+                    mutations.forEach(function(mutation) {
+                        for (var i = 0; i < mutation.addedNodes.length; i++) {
+                            if (typeof mutation.addedNodes[i].getElementsByTagName !== 'function') {
+                                continue;
+                            }
+
+                            if (typeof mutation.addedNodes[i].getElementsByClassName !== 'function') {
+                                continue;
+                            }
+
+                            images = mutation.addedNodes[i].getElementsByTagName('img');
+                            is_image = mutation.addedNodes[i].tagName == "IMG";
+                            iframes = mutation.addedNodes[i].getElementsByTagName('iframe');
+                            is_iframe = mutation.addedNodes[i].tagName == "IFRAME";
+                            rocket_lazy = mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');
+
+                            image_count += images.length;
+			                iframe_count += iframes.length;
+			                rocketlazy_count += rocket_lazy.length;
+
+                            if(is_image){
+                                image_count += 1;
+                            }
+
+                            if(is_iframe){
+                                iframe_count += 1;
+                            }
+                        }
+                    } );
+
+                    if(image_count > 0 || iframe_count > 0 || rocketlazy_count > 0){
+                        lazyLoadInstance.update();
+                    }
+                } );
+
+                var b      = document.getElementsByTagName("body")[0];
+                var config = { childList: true, subtree: true };
+
+                observer.observe(b, config);
+            }
+        }, false);</script><script data-no-minify="1" async="" src="js/lazyload.js"></script>	
+
+
+</body></html><!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1708943256 -->
